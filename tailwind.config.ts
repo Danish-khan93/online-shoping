@@ -12,6 +12,8 @@ module.exports = {
     colors: {
       BG: "#ffffff",
       Secondary2: "#DB4444",
+      Secondary: "#F5F5F5",
+
       TEXT1: "#000000",
       TEXT2: "#7D8184",
     },
