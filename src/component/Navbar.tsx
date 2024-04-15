@@ -8,7 +8,8 @@ import { NAVLINKSTYPE } from "@/types/navtypes";
 import { SearchField } from "./";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import { DropDownMenu } from "./";
+
+import { HeaderDrawer } from "./";
 import Link from "next/link";
 const Navbar = () => {
   const pathName = usePathname();
@@ -47,7 +48,9 @@ const Navbar = () => {
             </Link>
           </Box>
         </Box>
-
+        <Box>
+          <HeaderDrawer />
+        </Box>
       </Toolbar>
     </AppBar>
   );
