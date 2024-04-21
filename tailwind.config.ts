@@ -16,6 +16,7 @@ module.exports = {
 
       TEXT1: "#000000",
       TEXT2: "#7D8184",
+      TEXT3: "#7D8184",
     },
 fontSize:{
 para: "1rem",
