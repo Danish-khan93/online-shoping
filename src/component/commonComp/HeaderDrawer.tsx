@@ -73,7 +73,7 @@ export default function HeaderDrawer() {
           <Box>
             {navLinks.map((value: NAVLINKSTYPE) => {
               return (
-                <Typography className="py-[5px]">
+                <Typography key={value?.name} className="py-[5px]">
                   <Link href={value?.link}>{value?.name}</Link>
                 </Typography>
               );
