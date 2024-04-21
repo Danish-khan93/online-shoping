@@ -25,18 +25,18 @@ const addToWishList = () =>{
           backgroundSize: "cover",
         }}
       >
-        <Box className="text-BG bg-Secondary2 rounded-md py-[5px] px-[8px] h-[30px]">
+        <Box className="text-BG bg-Secondary2 rounded-md flex justify-center items-center p-[5px] h-[30px]">
           <Typography>discount</Typography>
         </Box>
         <Box className= 'flex flex-col gap-5'>
-          <Box className="bg-Secondary2 w-[30px] h-[30px] rounded-[50%] flex justify-center">
+          <Box className="bg-[#fff] w-[30px] h-[30px] rounded-[50%] flex justify-center">
             <IconButton onClick={addToWishList}>
-              <IoIosHeartEmpty className="text-BG" />
+              <IoIosHeartEmpty className="text-[#000]" />
             </IconButton>
           </Box>
-          <Box className="bg-Secondary2 w-[30px] h-[30px] rounded-[50%] flex justify-center">
+          <Box className="bg-[#fff] w-[30px] h-[30px] rounded-[50%] flex justify-center">
             <IconButton>
-              <LuEye className="text-BG" />
+              <LuEye className="text-[#000]" />
             </IconButton>
           </Box>
         </Box>

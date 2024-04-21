@@ -1,4 +1,4 @@
-import { Header,Navbar,ProductCard } from "@/component";
+import { Header,Navbar,ProductCard,HeroSlider } from "@/component";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
   <Header/>
   <Navbar/>
   <ProductCard/>
+  <HeroSlider/>
   <h1>danish</h1>
 
 </div>
