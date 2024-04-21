@@ -5,4 +5,5 @@ import SearchField from "./SearchField";
 import HeaderDrawer from "./commonComp/HeaderDrawer";
 import ProductCard from "./ProductCard";
 import HeroSlider from "./HeroSlider";
-export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider};
+import ImageCollectionGellary from "./ImageCollectionGellary";
+export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider,ImageCollectionGellary};
