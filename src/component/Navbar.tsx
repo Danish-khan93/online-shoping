@@ -19,7 +19,7 @@ const Navbar = () => {
         <Box>
           <Typography>Logo</Typography>
         </Box>
-        <Box className="flex gap-12">
+        <Box className="sm:flex gap-12 hidden">
           {navLinks.map((value: NAVLINKSTYPE) => {
             return (
               <Link
@@ -35,11 +35,11 @@ const Navbar = () => {
           })}
         </Box>
 
-        <Box className="flex gap-12 items-center">
+        <Box className="md:flex gap-8 items-center hidden">
           <Box>
             <SearchField />
           </Box>
-          <Box className="flex gap-8">
+          <Box className=" md:flex gap-8 hidden">
             <Link href={"#"} className="text-[20px] font-semibold">
               <IoIosHeartEmpty />
             </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             </Link>
           </Box>
         </Box>
-        <Box>
+        <Box className="sm:hidden block">
           <HeaderDrawer />
         </Box>
       </Toolbar>

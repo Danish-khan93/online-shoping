@@ -7,14 +7,14 @@ export const navLinks: NAVLINKSTYPE[] = [
   },
   {
     name: "Contact",
-    link: "#",
+    link: "/contact",
   },
   {
     name: "About",
-    link: "#",
+    link: "/about",
   },
   {
     name: "Sign Up",
-    link: "#",
+    link: "/signup",
   },
 ];
