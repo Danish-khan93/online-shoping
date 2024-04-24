@@ -1,15 +1,23 @@
-import { Header,Navbar,ProductCard,HeroSlider,ImageCollectionGellary } from "@/component";
+import {
+  Header,
+  Navbar,
+  ProductCard,
+  HeroSlider,
+  ImageCollectionGellary,
+  Footer
+} from "@/component";
 
 export default function Home() {
   return (
-<div >
-  <Header/>
-  <Navbar/>
-  <ProductCard/>
-  <HeroSlider/>
-  <ImageCollectionGellary/>
-  <h1>danish</h1>
+    <div>
+      <Header />
+      <Navbar />
+      <ProductCard />
+      {/* <HeroSlider /> */}
+      {/* <ImageCollectionGellary /> */}
+   <Footer/>
 
-</div>
+      <h1>danish</h1>
+    </div>
   );
 }

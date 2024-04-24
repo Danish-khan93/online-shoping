@@ -6,4 +6,5 @@ import HeaderDrawer from "./commonComp/HeaderDrawer";
 import ProductCard from "./ProductCard";
 import HeroSlider from "./HeroSlider";
 import ImageCollectionGellary from "./ImageCollectionGellary";
-export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider,ImageCollectionGellary};
+import Footer from "./Footer";
+export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider,ImageCollectionGellary,Footer};

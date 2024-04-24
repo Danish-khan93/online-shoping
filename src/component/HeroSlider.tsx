@@ -25,8 +25,8 @@ const HeroSlider = () => {
       onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide>
-        <Box className="relative bg-TEXT1 w-full flex justify-evenly items-center py-[10px]">
-          <Box>
+        <Box className="relative bg-TEXT1 w-full flex justify-evenly md:flex-row flex-col items-center py-[10px]">
+          <Box  className="flex flex-col justify-center items-center">
             <Box className="flex items-center gap-5">
               <Image
                 src={iphoneLogo}
@@ -52,8 +52,8 @@ const HeroSlider = () => {
             <Image
               src="https://picsum.photos/id/1/500/500"
               alt="slide"
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               className="w-full"
             />
           </Box>
