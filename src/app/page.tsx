@@ -4,7 +4,8 @@ import {
   ProductCard,
   HeroSlider,
   ImageCollectionGellary,
-  Footer
+  Footer,
+  ProductBanner,
 } from "@/component";
 
 export default function Home() {
@@ -13,9 +14,10 @@ export default function Home() {
       <Header />
       <Navbar />
       <ProductCard />
-      {/* <HeroSlider /> */}
+      <HeroSlider />
+      <ProductBanner />
       {/* <ImageCollectionGellary /> */}
-   <Footer/>
+      <Footer />
 
       <h1>danish</h1>
     </div>

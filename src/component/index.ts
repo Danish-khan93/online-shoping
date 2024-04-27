@@ -7,4 +7,5 @@ import ProductCard from "./ProductCard";
 import HeroSlider from "./HeroSlider";
 import ImageCollectionGellary from "./ImageCollectionGellary";
 import Footer from "./Footer";
-export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider,ImageCollectionGellary,Footer};
+import ProductBanner from "./ProductBanner";
+export { Header, DropDownMenu ,Navbar,SearchField ,HeaderDrawer,ProductCard,HeroSlider,ImageCollectionGellary,Footer,ProductBanner};
