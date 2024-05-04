@@ -1,11 +1,33 @@
-import React from 'react'
+import React from "react";
+import { TextField } from "@mui/material";
+import { Controller } from "react-hook-form";
+type Props = {
+  name: string;
+  control: any;
+  rules: any;
+  placeholder: string;
+  type: string;
+};
 
-const ComTextField = () => {
+const ComTextField = ({ name, control, rules, placeholder, type }: Props) => {
   return (
-    <div>ComTextField</div>
-  )
-}
+    <Controller
+      name={name}
+      rules={rules}
+      control={control}
+      render={({ field: { onChange }, fieldState: { error } }) => {
+        return (
+          <TextField
+            placeholder={placeholder}
+            type={type}
+            error={!!error}
+            onChange={onChange}
+            helperText={error?.message}
+          />
+        );
+      }}
+    />
+  );
+};
 
-export default ComTextField
-
-// https://www.figma.com/file/oE0ISnGbaxq3iSQHLXIFDb/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=34-213&mode=design&t=bTQbm2HG2Ea5Na45-0
+export default ComTextField;
